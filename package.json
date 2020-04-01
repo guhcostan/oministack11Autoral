@@ -1,0 +1,20 @@
+{
+  "name": "oministack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cd api && npm start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guhcostan/oministack11Autoral.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guhcostan/oministack11Autoral/issues"
+  },
+  "homepage": "https://github.com/guhcostan/oministack11Autoral#readme"
+}
