@@ -17,7 +17,7 @@
 const Route = use('Route')
 
 Route.get('/', () => {
-  return 'Teste'
+  return 'Oi Budi, Eu te amo MTO <3'
 })
 
 Route.post('/users', 'UserController.create')
