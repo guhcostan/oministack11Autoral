@@ -6,16 +6,14 @@ phases:
       nodejs: 10
   pre_build:
     commands:
-      - apt install zip unzip
       - echo Installing source NPM dependencies...
       - npm install
   build:
     commands:
       - echo Build started on `date`
       - echo Compiling the Node.js code
-      - ls
+      - git archive -v -o build.zip --format=zip HEAD
       - npm test
-      - zip -r build.zip *
   post_build:
     commands:
       - echo Build completed on `date`
